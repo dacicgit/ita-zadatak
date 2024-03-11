@@ -1,0 +1,25 @@
+a { 
+    color: green;
+}
+
+a[href="https://www.link-group.eu/"] {
+    color: red;
+}
+
+#first-div > p:nth-of-type(1)::after,
+#first-div > p:nth-of-type(2)::after {
+    content: " NEW";
+    color: yellow;
+}
+
+#second-div p:nth-child(odd) {
+    color: red;
+}
+
+#second-div p:nth-child(even) {
+    color: blue;
+}
+
+#paragraph-10:hover {
+    font-style: italic;
+}
